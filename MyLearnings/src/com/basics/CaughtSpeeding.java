@@ -1,7 +1,7 @@
 package com.basics;
 
 public class CaughtSpeeding {
-	public static int caughtSpeeding(int a, boolean isBirthday) {
+	public int caughtSpeeding(int a, boolean isBirthday) {
 		int c = 0;
 		if (isBirthday) {
 			if (a<=65) {
@@ -29,8 +29,8 @@ public class CaughtSpeeding {
 		  
 	}
 	public static void main(String[] args) {
-//		CaughtSpeeding cs = new CaughtSpeeding();
-		System.out.println(caughtSpeeding(65, false));
+		CaughtSpeeding cs = new CaughtSpeeding();
+		System.out.println(cs.caughtSpeeding(65, false));
 	}
 
 }

@@ -2,11 +2,11 @@ package com.basics;
 
 public class Sample {
 	
-	public int a;
+	public static int a=10;
 	
 	public int addition(int a, int b)
 	{
-		return a+b;
+		return b;
 	}
 	
 	public int substraction(int a, int b)
